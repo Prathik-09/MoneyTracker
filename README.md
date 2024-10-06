@@ -38,19 +38,21 @@ cd money-tracker-app
 
 Make sure you have Node.js installed. Run the following command to install all the necessary packages defined in package.json:
 npm install
+
 4. Set up MongoDB:
 Ensure that you have MongoDB running on your local machine. If you're using MongoDB Atlas, make sure to connect your application to your cluster. Update your connection string in the app.js file as needed.
 
 5. Start the server:
+   
 Launch the server using Node.js by executing:
-
 node app.js
+
 6. Open your browser:
 
 Navigate to the following URL in your web browser to access the application:
-
 http://localhost:3000
-##Project Structure
+
+## Project Structure
 money-tracker-app/
 │
 ├── public/                 # Frontend code
@@ -63,7 +65,7 @@ money-tracker-app/
 
 └── README.md               # Project documentation
 
-##Usage
+## Usage
 Add a Transaction
 To add a transaction, fill in the form fields with the following details:
 
@@ -81,7 +83,7 @@ If you wish to remove a transaction, click the "Delete" button next to the trans
 
 ![Screenshot 2024-10-06 115331](https://github.com/user-attachments/assets/c59db5a4-16c0-4829-a285-d15e8cac93cd)
 
-##Contributing
+## Contributing
 Contributions to the project are welcome! If you have any improvements, bug fixes, or new features you'd like to suggest, please feel free to:
 
 Fork the repository.
