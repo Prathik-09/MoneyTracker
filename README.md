@@ -52,19 +52,6 @@ node app.js
 Navigate to the following URL in your web browser to access the application:
 http://localhost:3000
 
-## Project Structure
-money-tracker-app/
-│
-├── public/                 # Frontend code
-│   ├── index.html          # Main HTML file
-│   ├── style.css           # CSS file for styling
-│   └── script.js           # JavaScript file for frontend functionality
-│
-├── app.js                  # Main Node.js file for the backend
-├── package.json            # Contains dependencies and project metadata
-
-└── README.md               # Project documentation
-
 ## Usage
 Add a Transaction
 To add a transaction, fill in the form fields with the following details:
