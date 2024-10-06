@@ -11,10 +11,10 @@ A simple Money Tracker App that allows users to track their income and expenses.
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript (Vanilla)
+- **Frontend**: HTML, CSS, JavaScript 
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (using Mongoose)
-- **Other**: Bootstrap for styling
+
 
 ## Prerequisites
 
@@ -32,18 +32,16 @@ Make sure you have the following installed on your system:
 2. Navigate to the project directory:
 
 Change into the project directory with the following command:
-
 cd money-tracker-app
+
 3. Install the required dependencies:
 
 Make sure you have Node.js installed. Run the following command to install all the necessary packages defined in package.json:
 npm install
 4. Set up MongoDB:
-
 Ensure that you have MongoDB running on your local machine. If you're using MongoDB Atlas, make sure to connect your application to your cluster. Update your connection string in the app.js file as needed.
 
 5. Start the server:
-
 Launch the server using Node.js by executing:
 
 node app.js
